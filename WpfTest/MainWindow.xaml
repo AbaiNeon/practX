@@ -1,0 +1,10 @@
+﻿<Window x:Class="WpfTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="415" Width="720">
+
+    <Grid x:Name="datePicker" RenderTransformOrigin="0.503,0.488" >
+        <Frame Name="myFrame" Content="Frame" HorizontalAlignment="Left" Width="712" Height="384" VerticalAlignment="Top"/>
+    </Grid>
+
+</Window>

@@ -1,0 +1,22 @@
+﻿<Page x:Class="WpfTest.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfTest"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="Page1">
+
+    <Grid>
+        <Menu HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="171" Background="#FFDE4141">
+            <MenuItem Header="Menu1">
+                <MenuItem Header="123" />
+                <MenuItem Header="234"/>
+            </MenuItem>
+            <MenuItem Header="Menu2"/>
+        </Menu>
+        <Button Content="Назад" HorizontalAlignment="Left" Height="26" Margin="197,253,0,0" VerticalAlignment="Top" Width="82" Click="Button_Click"/>
+
+    </Grid>
+</Page>
